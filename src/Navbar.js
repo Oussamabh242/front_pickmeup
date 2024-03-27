@@ -9,8 +9,8 @@ export default function Navbar(){
             <div className="navItems">
             <a href="/"  className="navItem">Home</a>
             <a href="/" className="navItem">About</a>
-            <Link to="/login" className="navItem">Login</Link>
-            <a href="/" className="navItem">signin</a>
+            <Link to="/login" className="navItem">Log in</Link>
+            <Link to="/signin" className="navItem">Sign in</Link>
             </div>
 
         </div >
