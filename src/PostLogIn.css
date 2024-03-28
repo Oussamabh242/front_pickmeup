@@ -1,0 +1,44 @@
+.mainPage {
+    display: flex; /* Use flexbox layout */
+    align-items: center;
+    height: 100vh ; 
+
+  }
+  
+  .sideBar {
+    width: 20%; /* The sidebar won't grow or shrink, and its initial size is determined by its contents */
+    background-color:#333;
+    height: 100vh;
+  }
+  
+.pickmeMenu {
+    flex: 1; /* The pickmeMenu will grow to fill available space */
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .searchForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin-top: 10px; /* Add margin at the top for spacing */
+  }
+  
+  .searchForm input,
+  .searchForm button {
+    margin: 5px 0; /* Add vertical margin to input fields and button */
+  }
+
+
+
+.sideBar li{
+    color:white ; 
+    list-style: none;
+    padding-top: 125px;
+    font-size: large;
+    
+}
